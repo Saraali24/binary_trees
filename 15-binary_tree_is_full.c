@@ -1,9 +1,11 @@
 #include "binary_trees.h"
+
 /**
- * binary_tree_is_full - check if the tree is a full binary tree.
+ * binary_tree_is_full - funtion that check if the tree is a full binary tree.
  * @tree: a tree to check
  * Return: 1 if the node is a leaf and returning the highest node;
  */
+
 int binary_tree_is_full(const binary_tree_t *tree)
 {
 	int right, left;
