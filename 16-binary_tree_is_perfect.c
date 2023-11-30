@@ -1,10 +1,11 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_is_perfect - check if tree is a perfect.
+ * binary_tree_is_perfect - function that checks if tree is a perfect.
  * @tree: tree to check
  * Return: 1 if binary tree is perfect.
  */
+
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	int left, right, size, pow;
@@ -30,7 +31,7 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 }
 
 /**
- * custom_binary_tree_height - gets the height of a binary tree from given node
+ * custom_binary_tree_height - function that gets the height of a binary tree from given node
  * @tree: ptr to node of tree.
  * Return: height of tree.
  */
@@ -54,10 +55,11 @@ int custom_binary_tree_height(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_size - gets the size of a binary tree.
+ * binary_tree_size - function that gets the size of a binary tree.
  * @tree: ptr to tree node.
  * Return: size of tree.
  */
+
 size_t binary_tree_size(const binary_tree_t *tree)
 {
 	size_t count;
@@ -72,10 +74,11 @@ size_t binary_tree_size(const binary_tree_t *tree)
 }
 
 /**
- * get_power - get the power of 2 for a given number
+ * get_power - function that gets the power of two for a given number
  * @exp: exponent
- * Return: power of 2 for given exponent
- */ 
+ * Return: the power of two for given exponent
+ */
+
 int get_power(int exp) {
     return (1 << exp);
 }
