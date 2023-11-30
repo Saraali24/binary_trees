@@ -1,15 +1,13 @@
 #include "binary_trees.h"
 /**
- * binary_tree_leaves - Count the leaves in a binary tree.
+ * binary_tree_leaves - function that count the leaves in a binary tree.
  * @tree: ptr to the root node in a tree.
- *
  * Return: leaves count or 0.
  */
 
 size_t binary_tree_leaves(const binary_tree_t *tree)
 {
 	size_t left, right;
-
 	left = 0;
 	right = 0;
 
